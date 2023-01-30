@@ -1,9 +1,38 @@
+.Table {
+  color: white;
+  margin-left: 3%;
+  margin-top: 0%; 
+}
+
+.Text {
+  color: white;
+  font-style: oblique;
+  margin-top: 0%; 
+  /* в margin-top стоит 0% для того чтобы фон закрывал белую полосу, как исправить хз */
+}
+
+.Text_menyu {
+  color: rgb(249, 247, 247);
+  font-size: 2rem;
+}
+
+.Body {
+  background-image: url('https://oir.mobi/uploads/posts/2021-03/1616966891_1-p-fon-dlya-menyu-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.Image_dimensions {
+  height: 26vmin;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -15,7 +44,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +61,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
